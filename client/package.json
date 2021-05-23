@@ -10,7 +10,7 @@
     "serve": "npm run export && serve out/",
     "lint": "eslint . --ignore-path ./.gitignore",
     "lint-fix": "eslint --fix . --ignore-path ./.gitignore",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc.js --ignore-path ./.gitignore"
+    "format": "prettier --write './**/*.{js,jsx,md,json}' --config ./.prettierrc.js --ignore-path ./.gitignore"
   },
   "dependencies": {
     "@socialgouv/matomo-next": "^1.2.2",
@@ -31,7 +31,6 @@
     "rehype-react": "^6.2.0",
     "remark-parse": "^9.0.0",
     "remark-rehype": "^8.1.0",
-    "superjson": "^1.7.4",
     "tailwindcss": "^2.1.2",
     "unified": "^9.2.1"
   },

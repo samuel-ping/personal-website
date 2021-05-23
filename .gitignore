@@ -3,15 +3,6 @@
 .next/
 out/
 
-# PWA
-**/public/workbox-*.js
-**/public/sw.js
-**/public/worker-*.js
-
-# Testing
-temp/
-
-
 # Frontend & Backend
 # Dependencies
 node_modules/
