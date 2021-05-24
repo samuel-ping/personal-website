@@ -25,6 +25,7 @@ module.exports = {
           ['@config', './src/config/'],
           ['@content', './src/content/'],
           ['@lib', './src/lib/'],
+          ['@styles', './src/styles/'],
         ],
         extensions: ['.js'],
       },

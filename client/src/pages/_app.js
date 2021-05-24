@@ -7,7 +7,8 @@ import { init } from '@socialgouv/matomo-next';
 import SiteLayout from '@components/SiteLayout';
 import { MATOMO_URL, MATOMO_SITE_ID } from '@lib/matomo';
 
-import 'tailwindcss/tailwind.css';
+// import 'tailwindcss/tailwind.css';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();

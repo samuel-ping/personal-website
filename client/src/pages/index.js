@@ -1,13 +1,22 @@
 import ContactBar from '@components/ContactBar';
-
+import Image from 'next/image';
 import HomeData from '@content/home.json';
 
 export default function Home({ taglines }) {
   return (
     <>
-      <div>
+      <div
+      // className="flex justify-center items-center flex-col"
+      >
+        <Image
+          src="assets/shrimp.png"
+          alt="picture of my succulent"
+          width={200}
+          height={200}
+        />
         <h1 className="leading-relaxed text-6xl font-bold">
-          Hi! I&rsquo;m <span className="text-green-600">Sam Ping</span>, a...
+          Hi! I&rsquo;m{' '}
+          <span className="text-green-600 text-shadow">Sam Ping</span>, a...
         </h1>
         <ul className="flex flex-col items-center">
           {taglines.map((tagline) => (
