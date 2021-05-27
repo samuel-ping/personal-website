@@ -10,7 +10,7 @@
     "serve": "npm run export && serve out/",
     "lint": "eslint . --ignore-path ./.gitignore",
     "lint-fix": "eslint --fix . --ignore-path ./.gitignore",
-    "format": "prettier --write './**/*.{js,jsx,md,json}' --config ./.prettierrc.js --ignore-path ./.gitignore"
+    "format": "prettier --write './**/*.{js,jsx,md,json}' --config ./.prettierrc.js"
   },
   "dependencies": {
     "@socialgouv/matomo-next": "^1.2.2",
